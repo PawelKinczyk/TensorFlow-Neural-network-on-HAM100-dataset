@@ -16,7 +16,7 @@ Basics information:
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 ## Summary
 
- Learning neural network on different numbers of pictures in each class is bad because your neural network learn to predict only one class. It leads to wrong evaluate metrics. In other way if you create a lot new pictures from "Data generator" you increase learning time. Maybe if you create more epoch you can get more accurate model. But as i see the validation accuracy decreas by second epoch.
+ Learning neural network on different numbers of pictures in each class(like class 1 =8000 images and other 6 classes ~100 images each) is bad because your neural network learn to predict only one class. It leads to wrong evaluate metrics. In other way if you create a lot new pictures from "Data generator" you increase learning time. Maybe if you create more epoch you can get more accurate model. But as i see the validation accuracy decreas by second epoch.
 
  Summary of summary, now:
 
